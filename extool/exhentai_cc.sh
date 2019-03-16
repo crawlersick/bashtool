@@ -90,7 +90,7 @@ else
 fi
 }
 
-for (( c=0; c<$pagemax; c++ ))
+for ((c=0;c<$pagemax;c++))
 do
    pagelink="$targetmanga""?p=$c"
     if [[ c = '0' ]] 
